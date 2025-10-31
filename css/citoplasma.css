@@ -40,6 +40,26 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.imagem-com-legenda {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagem-com-legenda p {
+    font-size: 0.95rem;
+    color: #6c757d;
+    max-width: 90%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
