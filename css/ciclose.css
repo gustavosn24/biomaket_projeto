@@ -25,11 +25,11 @@ header {
 
 a {
     color: #ffffff;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 h1 {
