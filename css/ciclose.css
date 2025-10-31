@@ -1,20 +1,45 @@
-/* Reset de margens e padding */
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1d1dd;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Estilos globais */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #495057;
-    line-height: 1.6;
-    padding: 20px;
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-h1, h2 {
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #adb5b8; 
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+ h2 {
     color: #007bff;
     font-weight: bold;
 }
@@ -25,7 +50,6 @@ h1, h2 {
     padding: 20px;
 }
 
-/* Estilos das seções */
 .section {
     background-color: #ffffff;
     padding: 30px;
@@ -41,7 +65,6 @@ h1, h2 {
     border-radius: 8px;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     font-size: 0.9rem;
@@ -50,7 +73,6 @@ footer {
     border-top: 1px solid #dee2e6;
 }
 
-/* Links */
 a {
     color: #007bff;
     text-decoration: none;
@@ -60,17 +82,38 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos responsivos */
 @media (max-width: 768px) {
-    h1 {
+    header h1 {
         font-size: 2rem;
     }
 
-    .section h2 {
+    section h2 {
         font-size: 1.6rem;
     }
 
     section p {
         font-size: 1rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    section p {
+        font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
     }
 }
